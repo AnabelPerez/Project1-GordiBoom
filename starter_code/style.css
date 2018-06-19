@@ -41,7 +41,7 @@ canvas {
   display: inline-block; /*darle altura a un elemento sin contenido*/
   width: 20px;
   height: 20px;
-  margin: 0px 3px;
+  margin: 0px 2px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, .2);
 }

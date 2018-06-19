@@ -9,7 +9,6 @@ window.onload = function (){
   var gorditoScore = document.getElementById("gorditoScore");
   var retreteScore = document.getElementById("retreteScore");
   var obstacles = [];
-
   var obstacleCoord = [
     {x:153,y:160,type:"gordito"},
     {x:153,y:237,type:"retrete"},
@@ -304,7 +303,7 @@ window.onload = function (){
     this.width = 2970;
     this.height = 490;
     this.img = new Image();
-    this.img.src = "images/estructura.png";
+    this.img.src = "images/fondo.jpg";
     this.img.onload = function(){
       this.draw(-3);
     }.bind(this);
