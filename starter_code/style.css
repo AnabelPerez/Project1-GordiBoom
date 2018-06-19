@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+body {
+	font-family: Fredoka One;
+  font-size: 18px;
+  letter-spacing: 1px;
+	color: white;
+}
+
+body button {
+  font-family: Fredoka One;
+  font-size: 19px;
+  letter-spacing: 3px;
+  background-color: #EDB51D;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  box-shadow: 0;
+  border-radius: 5px;
+  margin: 30px 10px 20px 170px;
+}
+
+@font-face{
+  font-family: "FredokaOne-Regular";
+  src: ("/fonts/FredokaOne-Regular.ttf");
+}
+
+.background{
+  background-color: #8EA3AE;
+}
+
+.back{
+  background-color: yellow;
+}
+
+canvas {
+  margin: 0px 130px;
+}
+
+.circulos {
+  display: inline-block; /*darle altura a un elemento sin contenido*/
+  width: 20px;
+  height: 20px;
+  margin: 0px 3px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.score {
+  float: left;
+  margin: 10px;
+  position: relative;
+  width: 25vw;
+  margin: 40px 10px;
+}
+
+.gordito-img{
+  float: left;
+  position: relative;
+  margin: 20px 10px 20px 130px;
+}
+
+.logotipo{
+  float: left;
+  position: relative;
+  margin: 130px 90px 0px 130px;
+  width: 50vh;
+}
+
+.btn-img{
+  margin: 0px 0px 0px 220px;
+  display: inline-block;
+  width: 25vh;
+}
+
+.reglas{
+  width: 95vh;
+  margin: 50px 0px 0px 0px;
+}
